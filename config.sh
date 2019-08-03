@@ -4,7 +4,7 @@
 
 echo "confuguracao de teclas adicionais\n"
 
-mkdir "~/.termux"
+mkdir ~/.termux
 echo "extra-keys = [['ESC','/','-','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]" > ~/.termux/termux.properties
 termux-setup-storage
 
